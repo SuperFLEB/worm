@@ -1,7 +1,7 @@
 # @superfleb/worm
 
-A utility module that makes properties of an object Write-once/Read-many, i.e., writing to the property will work the
-first time, but fail on subsequent tries.
+A JavaScript/TypeScript utility module that makes properties of an object Write-once/Read-many, i.e., writing to the
+property will work the first time, but fail on subsequent tries.
 
 Usage:
 
