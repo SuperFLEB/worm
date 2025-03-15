@@ -3,11 +3,21 @@
 	"author": "FLEB (a.k.a. SuperFLEB)",
 	"repository": "https://github.com/SuperFLEB/worm",
 	"description": "Designate some properties of an object as Write Once, Read Many",
-	"version": "1.0.0",
+	"version": "1.0.1",
 
 	"type": "module",
 	"import": "dist/esm/index.js",
 	"require": "dist/cjs/index.js",
+	"files": [
+		"src",
+		"tests",
+		"dist",
+		"README.md",
+		"LICENSE",
+		"package.json",
+		"tsconfig.*",
+		"yarn.lock"
+	],
 
 	"scripts": {
 		"clean": "rimraf ./dist",
